@@ -22,7 +22,6 @@ alias cleani="rm -rf node_modules/ && npm i"
 # generic aliases
 alias oc="cd /Users/adnaan.ahmed/Projects/crocStack"
 alias cls="clear"
-alias bashconfig="code ~/.bash_profile"
 
 # aliases for conda
 alias act="source activate"

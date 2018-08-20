@@ -133,7 +133,7 @@ echo -e "\033]6;1;bg;blue;brightness;33\a"
 # For a full list of active aliases, run `alias`.
 #
 # Basic aliases
-alias zshconfig="code ~/.zshrc"
+# alias zshconfig="vimbash ~/.zshrc"
 # alias ohmyzsh="vim ~/.oh-my-zsh"
 
 
