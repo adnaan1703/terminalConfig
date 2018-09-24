@@ -144,7 +144,6 @@ alias spn="spotify next"
 alias spv="spotify volume"
 alias spvu="spotify vol up"
 alias spvd="spotify vol down"
-alias spv="spotify volume"
 
 # sourcing the bash_profile
 source ~/.bash_profile

@@ -23,6 +23,19 @@ alias cleani="rm -rf node_modules/ && npm i"
 alias oc="cd /Users/adnaan.ahmed/Projects/crocStack"
 alias cls="clear"
 
+#npm aliases
+alias ngi="sudo npm install -g "
+alias nli="npm install "
+alias nsi="npm install --save "
+alias ndi="npm install --save-dev"
+alias ngl="npm list -g --depth=0"
+alias nll="npm list --depth=0"
+alias ngu="sudo npm uninstall -g "
+alias nlu="sudo npm uninstall "
+alias nsu="sudo npm uninstall --save "
+alias ndu="sudo npm uninstall --save-dev "
+
+
 # aliases for conda
 alias act="source activate"
 alias dact="source deactivate"
