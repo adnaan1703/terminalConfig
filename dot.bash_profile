@@ -43,3 +43,6 @@ alias celist="conda env list"
 
 # added by Miniconda3 installer
 export PATH="/Users/adnaan.ahmed/miniconda3/bin:$PATH"
+
+# React editor
+export REACT_EDITOR="code"
