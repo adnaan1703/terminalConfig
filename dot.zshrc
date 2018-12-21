@@ -152,7 +152,7 @@ source ~/.bash_profile
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # zsh-syntax-highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # sourcing oh-my-zsh
 source $ZSH/oh-my-zsh.sh

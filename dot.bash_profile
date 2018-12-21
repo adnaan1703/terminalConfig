@@ -46,3 +46,6 @@ export PATH="/Users/adnaan.ahmed/miniconda3/bin:$PATH"
 
 # React editor
 export REACT_EDITOR="code"
+
+# Stop MacAfee
+alias peace="sudo sh /Users/adnaan.ahmed/Desktop/work/scripts/peace.sh"
