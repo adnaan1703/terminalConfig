@@ -15,15 +15,20 @@ alias cleanri="rm -rf node_modules/rome-models/ && npm i"
 alias rext="sh /Users/adnaan.ahmed/Desktop/work/scripts/build.sh"
 alias deploy="sh /Users/adnaan.ahmed/Projects/flipkart/ts-rex/scripts/aergia/deploy.sh"
 alias release="sh /Users/adnaan.ahmed/Projects/flipkart/ts-rex/scripts/aergia/release.sh"
-
-# aliases for node
-alias cleani="rm -rf node_modules/ && npm i"
+alias ci="sh ~/Desktop/work/scripts/react_clean_install.sh"
 
 # generic aliases
-alias oc="cd /Users/adnaan.ahmed/Projects/crocStack"
+alias oo="cd /Users/adnaan.ahmed/Projects/open"
+alias oml="cd /Users/adnaan.ahmed/Projects/machine_learning"
 alias cls="clear"
+alias pls="sudo"
 
-#npm aliases
+# git aliases
+alias gpl="git plog"
+alias gbc="git branch | grep -v \"*\" | xargs git branch -D"
+alias gbsc="git branch | grep -v \"*\" | xargs git branch -d"
+
+# npm aliases
 alias ngi="sudo npm install -g "
 alias nli="npm install "
 alias nsi="npm install --save "
@@ -49,3 +54,11 @@ export REACT_EDITOR="code"
 
 # Stop MacAfee
 alias peace="sudo sh /Users/adnaan.ahmed/Desktop/work/scripts/peace.sh"
+
+# Android related aliased
+alias semulator="~/Library/Android/sdk/emulator/emulator -avd Pixel_3a_API_28 -no-snapshot-load -netfast"
+alias avengers="./gradlew"
+
+# fun
+alias rickroll="curl -s -L http://bit.ly/10hA8iC | bash"
+eval $(thefuck --alias)

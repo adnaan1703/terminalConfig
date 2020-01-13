@@ -93,7 +93,7 @@ plugins=(
 # =======================
 POWERLEVEL9K_MODE='nerdfont-complete'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time anaconda root_indicator background_jobs ram)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time anaconda root_indicator background_jobs)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=0.1
 POWERLEVEL9K_RAM_ELEMENTS=ram_free
@@ -144,6 +144,7 @@ alias spn="spotify next"
 alias spv="spotify volume"
 alias spvu="spotify vol up"
 alias spvd="spotify vol down"
+alias spst="spotify status"
 
 # sourcing the bash_profile
 source ~/.bash_profile
