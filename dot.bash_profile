@@ -3,6 +3,8 @@
 #  . $(brew --prefix)/etc/bash_completion
 # fi
 
+# added for go development
+#export PATH=$PATH:/usr/local/go/bin
 
 # added for JAVA and Android development
 export JAVA_HOME=$(/usr/libexec/java_home)
@@ -22,9 +24,11 @@ alias oo="cd /Users/adnaan.ahmed/Projects/open"
 alias oml="cd /Users/adnaan.ahmed/Projects/machine_learning"
 alias cls="clear"
 alias pls="sudo"
+alias chrome='open -a "Google Chrome.app"'
 
 # git aliases
 alias gpl="git plog"
+alias gpo="git rev-parse --abbrev-ref HEAD | xargs git pull origin"
 alias gbc="git branch | grep -v \"*\" | xargs git branch -D"
 alias gbsc="git branch | grep -v \"*\" | xargs git branch -d"
 
@@ -61,4 +65,3 @@ alias avengers="./gradlew"
 
 # fun
 alias rickroll="curl -s -L http://bit.ly/10hA8iC | bash"
-eval $(thefuck --alias)
