@@ -25,6 +25,7 @@ alias oml="cd /Users/adnaan.ahmed/Projects/machine_learning"
 alias cls="clear"
 alias pls="sudo"
 alias chrome='open -a "Google Chrome.app"'
+alias notify="osascript -e 'display notification \"Task Complete\" with title \"Task Status\"' && say task complete"
 
 # git aliases
 alias gpl="git plog"
@@ -65,3 +66,4 @@ alias avengers="./gradlew"
 
 # fun
 alias rickroll="curl -s -L http://bit.ly/10hA8iC | bash"
+
