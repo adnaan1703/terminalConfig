@@ -14,10 +14,8 @@ export PATH=$PATH:~/Library/Android/sdk/platform-tools/
 alias of="cd /Users/adnaan.ahmed/Projects/flipkart"
 alias rsnc="npm start -- --port 8899 --reset-cache"
 alias cleanri="rm -rf node_modules/rome-models/ && npm i"
-alias rext="sh /Users/adnaan.ahmed/Desktop/work/scripts/build.sh"
-alias deploy="sh /Users/adnaan.ahmed/Projects/flipkart/ts-rex/scripts/aergia/deploy.sh"
-alias release="sh /Users/adnaan.ahmed/Projects/flipkart/ts-rex/scripts/aergia/release.sh"
-alias ci="sh ~/Desktop/work/scripts/react_clean_install.sh"
+alias rext="sh /Users/adnaan.ahmed/Projects/open/terminalConfig/scripts/work/build.sh"
+alias ci="sh /Users/adnaan.ahmed/Projects/open/terminalConfig/scripts/work/react_clean_install.sh"
 
 # generic aliases
 alias oo="cd /Users/adnaan.ahmed/Projects/open"
@@ -25,11 +23,14 @@ alias oml="cd /Users/adnaan.ahmed/Projects/machine_learning"
 alias cls="clear"
 alias pls="sudo"
 alias chrome='open -a "Google Chrome.app"'
-alias notify="osascript -e 'display notification \"Task Complete\" with title \"Task Status\"' && say task complete"
+alias snotify="sh /Users/adnaan.ahmed/Projects/open/terminalConfig/scripts/personal/success_notify.sh"
+alias fnotify="sh /Users/adnaan.ahmed/Projects/open/terminalConfig/scripts/personal/fail_notify.sh"
+alias notify="snotify || fnotify"
 
 # git aliases
 alias gpl="git plog"
-alias gpo="git rev-parse --abbrev-ref HEAD | xargs git pull origin"
+alias gpull="git rev-parse --abbrev-ref HEAD | xargs git pull origin"
+alias gpush="git rev-parse --abbrev-ref HEAD | xargs git push origin"
 alias gbc="git branch | grep -v \"*\" | xargs git branch -D"
 alias gbsc="git branch | grep -v \"*\" | xargs git branch -d"
 
@@ -58,7 +59,7 @@ export PATH="/Users/adnaan.ahmed/miniconda3/bin:$PATH"
 export REACT_EDITOR="code"
 
 # Stop MacAfee
-alias peace="sudo sh /Users/adnaan.ahmed/Desktop/work/scripts/peace.sh"
+alias peace="sudo sh /Users/adnaan.ahmed/Projects/open/terminalConfig/scripts/personal/peace.sh"
 
 # Android related aliased
 alias semulator="~/Library/Android/sdk/emulator/emulator -avd Pixel_3a_API_28 -no-snapshot-load -netfast"
